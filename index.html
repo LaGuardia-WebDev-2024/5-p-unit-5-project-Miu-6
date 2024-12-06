@@ -1,12 +1,12 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ c ] <div> and <span>
+[ c ] height: and width:
+[ c ] margin: and padding: 
+[ c ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Flexbox
+[ yes ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
@@ -16,17 +16,60 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      .first-sentence {
+        color: red;
+        font-style: italic;
+        text-decoration: underline;
+      }
+      .tomato {
+        background: rgb(100, 150, 100);
+        width: 70%;
+        height: 180px;
+        overflow-y: auto;
+      }
+      .tomatoi {
+        width: 200 px;
+        margin: 20px;
+        border: 5px solid red;
+        padding: 10px;
+      }
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
-
-  </style>
-</head>
-<body>
-
- 
-
-</body>
+      .yipee {
+        background-color: blue;
+        display: flex;
+        height: 300px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p><span class="first-sentence"> I see </span>tomatoes</p>
+    </div>
+    <img
+      class="tomato"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/800px-Tomato_je.jpg"
+      alt="tomatoes"
+      width="300"
+    />
+    <img
+      src="https://easydrawingguides.com/wp-content/uploads/2018/08/how-to-draw-a-tomato-featured-image-1200.png"
+      alt="tomatoes"
+      width="300"
+    />
+    <div class="yipee">
+      <img
+        class="tomatoi"
+        src="https://i0.wp.com/foodandstyle.com/wp-content/uploads/2010/08/IMG_2657-Vine-ripened-tomatoes-750.jpg?fit=750%2C500&ssl=1"
+        alt="tomatoes"
+        width="300"
+      />
+    </div>
+  </body>
 </html>
